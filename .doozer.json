@@ -25,7 +25,7 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-dvbscan\\ --disable-libvpx_static\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-dvbscan\\ --disable-libvpx_static\\ --disable-libvpx\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     },
 
@@ -53,7 +53,7 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-dvbscan\\ --disable-libvpx_static\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-dvbscan\\ --disable-libvpx_static\\ --disable-libvpx\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     },
 
