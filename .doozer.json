@@ -20,7 +20,8 @@
         "dvb-apps",
         "debhelper",
         "libcurl4-gnutls-dev",
-        "curl"
+        "curl",
+        "ccache"
       ],
 
       "buildcmd": [
@@ -47,7 +48,8 @@
         "dvb-apps",
         "debhelper",
         "libcurl4-gnutls-dev",
-        "curl"
+        "curl",
+        "ccache"
       ],
 
       "buildcmd": [
@@ -74,7 +76,8 @@
         "dvb-apps",
         "debhelper",
         "libcurl4-gnutls-dev",
-        "curl"
+        "curl",
+        "ccache"
       ],
 
       "buildcmd": [
@@ -101,7 +104,8 @@
         "dvb-apps",
         "debhelper",
         "libcurl4-gnutls-dev",
-        "curl"
+        "curl",
+        "ccache"
       ],
 
       "buildcmd": [
@@ -128,7 +132,8 @@
         "dvb-apps",
         "debhelper",
         "libcurl4-gnutls-dev",
-        "curl"
+        "curl",
+        "ccache"
       ],
 
       "buildcmd": [
