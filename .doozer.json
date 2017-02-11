@@ -139,6 +139,90 @@
       "buildcmd": [
         "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
-    }
+    },
+    
+    "xenial-i386": {
+      "buildenv": "xenial-i386",
+      "builddeps": [
+        "cmake",
+        "git",
+        "build-essential",
+        "pkg-config",
+        "gettext",
+        "libavahi-client-dev",
+        "libssl-dev",
+        "zlib1g-dev",
+        "wget",
+        "bzip2",
+        "git-core",
+        "liburiparser-dev",
+        "python",
+        "dvb-apps",
+        "debhelper",
+        "libcurl4-gnutls-dev",
+        "curl",
+        "ccache"
+      ],
+
+      "buildcmd": [
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+      ]
+    },
+
+    "xenial-armhf": {
+      "buildenv": "xenial-armhf",
+      "builddeps": [
+        "cmake",
+        "git",
+        "build-essential",
+        "pkg-config",
+        "gettext",
+        "libavahi-client-dev",
+        "libssl-dev",
+        "zlib1g-dev",
+        "wget",
+        "bzip2",
+        "git-core",
+        "liburiparser-dev",
+        "python",
+        "dvb-apps",
+        "debhelper",
+        "libcurl4-gnutls-dev",
+        "curl",
+        "ccache"
+      ],
+
+      "buildcmd": [
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+      ]
+    },
+    
+    "xenial-arm64": {
+      "buildenv": "xenial-arm64",
+      "builddeps": [
+        "cmake",
+        "git",
+        "build-essential",
+        "pkg-config",
+        "gettext",
+        "libavahi-client-dev",
+        "libssl-dev",
+        "zlib1g-dev",
+        "wget",
+        "bzip2",
+        "git-core",
+        "liburiparser-dev",
+        "python",
+        "dvb-apps",
+        "debhelper",
+        "libcurl4-gnutls-dev",
+        "curl",
+        "ccache"
+      ],
+
+      "buildcmd": [
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+      ]
+    },
   }
 }
