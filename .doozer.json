@@ -25,7 +25,7 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-dvbscan\\ --disable-libvpx_static\\ --disable-libvpx\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-dvbscan\\ --disable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     },
 
@@ -53,7 +53,7 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-dvbscan\\ --disable-libvpx_static\\ --disable-libvpx\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-dvbscan\\ --disable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     },
 
@@ -168,6 +168,62 @@
         "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     },
+    
+    "jessie-i386": {
+      "buildenv": "jessie-i386",
+      "builddeps": [
+        "cmake",
+        "git",
+        "build-essential",
+        "pkg-config",
+        "gettext",
+        "libavahi-client-dev",
+        "libssl-dev",
+        "zlib1g-dev",
+        "wget",
+        "bzip2",
+        "git-core",
+        "liburiparser-dev",
+        "python",
+        "dvb-apps",
+        "debhelper",
+        "libcurl4-gnutls-dev",
+        "curl",
+        "ccache"
+      ],
+
+      "buildcmd": [
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+      ]
+    },
+    
+    "jessie-amd64": {
+      "buildenv": "jessie-amd64",
+      "builddeps": [
+        "cmake",
+        "git",
+        "build-essential",
+        "pkg-config",
+        "gettext",
+        "libavahi-client-dev",
+        "libssl-dev",
+        "zlib1g-dev",
+        "wget",
+        "bzip2",
+        "git-core",
+        "liburiparser-dev",
+        "python",
+        "dvb-apps",
+        "debhelper",
+        "libcurl4-gnutls-dev",
+        "curl",
+        "ccache"
+      ],
+
+      "buildcmd": [
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+      ]
+    },
 
     "xenial-armhf": {
       "buildenv": "xenial-armhf",
@@ -193,7 +249,7 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --disable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     },
     
@@ -221,8 +277,8 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-dvbscan\\ --disable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
-    },
+    }
   }
 }
