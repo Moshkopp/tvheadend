@@ -25,7 +25,7 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-libx265_static\\ --disable-libx265\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     },
 
@@ -53,7 +53,7 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-libx265_static\\ --disable-libx265\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     },
 
@@ -249,7 +249,7 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-libvpx\\ --disable-libvpx_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     },
     
@@ -277,7 +277,7 @@
       ],
 
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-ffmpeg_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
+        "AUTOBUILD_CONFIGURE_EXTRA=--disable-bintray_cache\\ --disable-libvpx\\ --disable-libvpx_static\\ --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}"
       ]
     }
   }
